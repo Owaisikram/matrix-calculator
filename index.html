@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Matrix Calculator</title>
+</head>
+
+<body>
+    <h1>Matrix Calculator</h1>
+
+    <label for="operation">Select Operation:</label>
+    <select id="operation">
+        <option value="+">+</option>
+        <option value="-">-</option>
+    </select>
+
+    <form id="myForm">
+        <input type="number" placeholder="Enter matrix size" required>
+        <button type="submit">Generate</button>
+    </form>
+
+    <div id="inputBoxes1"></div>
+    <br>
+    <div id="inputBoxes2"></div>
+    <br>
+    <div id="resultBoxes"></div>
+
+    <button id="inputButton">Calculate</button>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
